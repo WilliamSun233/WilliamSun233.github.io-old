@@ -1,0 +1,23 @@
+body{
+    background-color: cornsilk;
+    margin: 0;
+    padding: 0;
+    font-family: Arial
+}
+nav{
+    background-color: green;
+    padding: 10px;
+    position: fixed;
+     
+   
+
+}
+nav a{
+
+
+    text-decoration: none;
+    padding: 18px 15px;
+    font-size: 1.5em;
+    color: white;
+
+}
