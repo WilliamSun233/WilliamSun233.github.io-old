@@ -1,23 +1,69 @@
-body{
-    background-color: cornsilk;
+body {
+    background-color: tan;
     margin: 0;
     padding: 0;
-    font-family: Arial
+    font-family: 'Roboto', sans-serif;
 }
-nav{
-    background-color: green;
+
+nav {
+    background-color: darkcyan;
     padding: 10px;
     position: fixed;
-     
-   
-
+    width: 100%; /* view width = vw */
 }
-nav a{
 
-
+nav a {
     text-decoration: none;
-    padding: 18px 15px;
+    padding: 10px 15px;
+    /*
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    */
     font-size: 1.5em;
-    color: white;
+    color:white;
+    font-family: 'Mountains of Christmas', cursive;
+}
 
+header {
+    padding-top: 38px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Echo_Park_Lake_with_Downtown_Los_Angeles_Skyline.jpg/2560px-Echo_Park_Lake_with_Downtown_Los_Angeles_Skyline.jpg");
+    background-size: cover;
+    background-position: bottom;
+    color: white
+}
+
+.slide {
+    height: 75vh;
+    background-color: pink;
+    border: 1px solid #ffffff;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div h1 {
+    color: purple;
+    font-size: 2.5em;
+}
+
+#about {
+    background-color: #5a1b74;
+}
+
+#my-profile-pic {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Echo_Park_Lake_with_Downtown_Los_Angeles_Skyline.jpg/2560px-Echo_Park_Lake_with_Downtown_Los_Angeles_Skyline.jpg")
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 40%;
+}
+
+#my-profile-details {
+    width: 60%;
+    height: 100%;
+    background-color: red;
 }
