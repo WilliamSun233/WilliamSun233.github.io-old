@@ -28,10 +28,14 @@ nav a {
 
 header {
     padding-top: 38px;
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Echo_Park_Lake_with_Downtown_Los_Angeles_Skyline.jpg/2560px-Echo_Park_Lake_with_Downtown_Los_Angeles_Skyline.jpg");
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Echo_Park_Lake_with_Downtown_Los_Angeles_Skyline.jpg/2560px-Echo_Park_Lake_with_Downtown_Los_Angeles_Skyline.jpg" );
     background-size: cover;
     background-position: bottom;
-    color: white
+}
+
+header h1 {
+    background-color: rgba(66, 36, 36, 0.425);
+    color: white;
 }
 
 .slide {
@@ -52,18 +56,39 @@ div h1 {
 
 #about {
     background-color: #5a1b74;
+    justify-content: space-between
 }
 
 #my-profile-pic {
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Echo_Park_Lake_with_Downtown_Los_Angeles_Skyline.jpg/2560px-Echo_Park_Lake_with_Downtown_Los_Angeles_Skyline.jpg")
+    background-image: url("https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=450095507,3148801447&fm=27&gp=0.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    width: 40%;
+    width: 100%;
 }
 
 #my-profile-details {
     width: 60%;
     height: 100%;
-    background-color: red;
+    background-color: yellow;
+}
+
+.post-wrapper {
+    /* width: 100%; */
+    background-color: #ffffff;
+    border: 2px dotted #5a1b74;
+    /* height:200px; */
+    /* overflow-y: scroll; */
+    padding: 20px;
+}
+
+#blog {
+    flex-direction: column;
+    height: auto;
+}
+
+.date {
+    float: right;
+    font-style: italic;
+    font-weight: 400;
 }
